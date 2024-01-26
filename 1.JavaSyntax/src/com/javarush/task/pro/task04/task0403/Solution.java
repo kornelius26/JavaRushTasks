@@ -2,24 +2,16 @@ package com.javarush.task.pro.task04.task0403;
 
 public class Solution {
     public static void main(String[] args) {
-        int n = 0;
-
-        while (n < 5)
-        {
-
-            int m = 0;
-
-            while (m < 10)
-            {
+        int str = 0;
+        while (str < 5) {
+            int lon = 0;
+            while (lon < 10) {
                 System.out.print("Q");
-                m++;
+                lon++;
+
             }
-
             System.out.println();
-
-            n++;
-
+            str++;
         }
-
     }
 }
